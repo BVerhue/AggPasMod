@@ -789,7 +789,11 @@ begin
       FCurrentFont := HFONT_ptr(PtrComp(FFonts) + Index * SizeOf(HFONT))^;
       SelectObject(FDc, FCurrentFont);
 
+      {$IFDEF FPC}
+      FTextMetricValid := GetTextMetricsA(FDc, @FTextMetric);
+      {$ELSE}
       FTextMetricValid := GetTextMetricsA(FDc, FTextMetric);
+      {$ENDIF}
 
       FNumKerningPairs := 0;
       Result := True;
@@ -849,7 +853,11 @@ begin
 
         SelectObject(FDc, FCurrentFont);
 
+        {$IFDEF FPC}
+        FTextMetricValid := GetTextMetricsA(FDc, @FTextMetric);
+        {$ELSE}
         FTextMetricValid := GetTextMetricsA(FDc, FTextMetric);
+        {$ENDIF}
 
         FNumKerningPairs := 0;
 
