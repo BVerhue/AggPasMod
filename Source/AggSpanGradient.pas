@@ -443,7 +443,7 @@ begin
   Solution.Y := Solution.Y - FFocus.Y;
 
   IntToFocus := Sqr(Solution.X) + Sqr(Solution.Y);
-  CurToFocus := Sqr(X - FFocus.X) + Sqr(Y - FFocus.Y);
+  CurToFocus := Sqr(1.0 * X - FFocus.X) + Sqr(1.0 * Y - FFocus.Y);
 
   Result := Trunc(Sqrt(CurToFocus / IntToFocus) * FRadius);
 end;
