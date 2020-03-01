@@ -31,8 +31,8 @@ interface
 
 uses
   AggBasics,
-  AggScanLineStorageAA,
-  AggScanLineStorageBin,
+  AggScanlineStorageAA,
+  AggScanlineStorageBin,
   AggPathStorageInteger;
 
 type

@@ -1,4 +1,4 @@
-unit AggRasterizerScanLineAA;
+unit AggRasterizerScanlineAA;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //

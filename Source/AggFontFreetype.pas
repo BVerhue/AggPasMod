@@ -36,7 +36,7 @@ interface
 uses
   SysUtils,
   Math,
-  AggFontFreeTypeLib,
+  AggFontFreetypeLib,
   AggBasics,
   AggFontEngine,
   AggFontCacheManager,
@@ -44,12 +44,12 @@ uses
   AggVertexSource,
   AggPathStorageInteger,
   AggConvCurve,
-  AggScanLine,
+  AggScanline,
   AggScanlineUnpacked,
-  AggScanLineBin,
-  AggRasterizerScanLineAA,
-  AggRendererScanLine,
-  AggRenderScanLines,
+  AggScanlineBin,
+  AggRasterizerScanlineAA,
+  AggRendererScanline,
+  AggRenderScanlines,
   AggBitsetIterator;
 
 type

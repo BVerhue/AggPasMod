@@ -1,4 +1,4 @@
-unit AggScanLinePacked;
+unit AggScanlinePacked;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
@@ -28,7 +28,7 @@ interface
 
 uses
   AggBasics,
-  AggScanLine;
+  AggScanline;
 
 type
   PAggSpanPacked8 = ^TAggSpanPacked8;

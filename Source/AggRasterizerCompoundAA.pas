@@ -33,7 +33,7 @@ uses
   AggRasterizerScanline,
   AggRasterizerScanlineClip,
   AggVertexSource,
-  AggScanLine;
+  AggScanline;
 
 const
   CAggAntiAliasingShift = 8;

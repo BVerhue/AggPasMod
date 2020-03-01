@@ -27,8 +27,8 @@
 
 {$IFDEF CPU64}
   {$DEFINE AGG_CPU_64}
+  {$DEFINE PUREPASCAL}
 {$ENDIF}
-
 
 { OS }
 

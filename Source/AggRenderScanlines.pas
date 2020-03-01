@@ -1,4 +1,4 @@
-unit AggRenderScanLines;
+unit AggRenderScanlines;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
@@ -31,9 +31,9 @@ interface
 uses
   AggBasics,
   AggColor,
-  AggRasterizerScanLine,
-  AggScanLine,
-  AggRendererScanLine,
+  AggRasterizerScanline,
+  AggScanline,
+  AggRendererScanline,
   AggVertexSource;
 
 procedure RenderScanLines(Ras: TAggRasterizerScanLine; Sl: TAggCustomScanLine;

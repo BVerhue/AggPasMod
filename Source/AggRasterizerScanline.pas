@@ -1,4 +1,4 @@
-unit AggRasterizerScanLine;
+unit AggRasterizerScanline;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
@@ -26,7 +26,7 @@ interface
 
 uses
   AggBasics,
-  AggScanLine,
+  AggScanline,
   AggVertexSource;
 
 type

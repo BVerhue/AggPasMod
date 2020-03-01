@@ -1,4 +1,4 @@
-unit AggScanLineBin;
+unit AggScanlineBin;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
@@ -28,7 +28,7 @@ interface
 
 uses
   AggBasics,
-  AggScanLine;
+  AggScanline;
 
 type
   PAggSpanBin = ^TAggSpanBin;

@@ -1,4 +1,4 @@
-unit AggScanLineStorageBin;
+unit AggScanlineStorageBin;
 
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
@@ -31,10 +31,10 @@ interface
 uses
   AggBasics,
   AggArray,
-  AggScanLine,
-  AggRendererScanLine,
-  AggRenderScanLines,
-  AggRasterizerScanLine;
+  AggScanline,
+  AggRendererScanline,
+  AggRenderScanlines,
+  AggRasterizerScanline;
 
 type
   PAggSpanData = ^TAggSpanData;

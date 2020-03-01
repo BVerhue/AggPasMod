@@ -27,7 +27,7 @@ interface
 {$I AggCompiler.inc}
 
 // With this define uncommented you can use FreeType font engine
-{-$DEFINE AGG2D_USE_FREETYPE}
+{$DEFINE AGG2D_USE_FREETYPE}
 
 uses
   AggBasics,
@@ -42,14 +42,14 @@ uses
   AggConvCurve,
   AggRenderingBuffer,
   AggRendererBase,
-  AggRendererScanLine,
+  AggRendererScanline,
   AggSpanGradient,
   AggSpanImageFilterRgba,
   AggSpanImageResampleRgba,
   AggSpanConverter,
   AggSpanInterpolatorLinear,
   AggSpanAllocator,
-  AggRasterizerScanLineAA,
+  AggRasterizerScanlineAA,
   AggGammaFunctions,
   AggScanlineUnpacked,
   AggArc,
@@ -63,10 +63,10 @@ uses
   AggMathStroke,
   AggImageFilters,
   AggVertexSource,
-  AggRenderScanLines,
+  AggRenderScanlines,
 
 {$IFDEF AGG2D_USE_FREETYPE}
-  AggFontFreeType,
+  AggFontFreetype,
 {$ELSE}
   AggFontWin32TrueType,
   Windows,
@@ -84,7 +84,7 @@ type
 
 {$IFDEF AGG2D_USE_FREETYPE }
   TAggFontEngine = TAggFontEngineFreetypeInt32;
-{$ELSE }
+{$ELSE}
   TAggFontEngine = TAggFontEngineWin32TrueTypeInt32;
 {$ENDIF}
 
