@@ -183,10 +183,12 @@ contains
   AggVpgenClipPolyline in '..\..\Source\AggVpgenClipPolyline.pas',
   AggVpgenSegmentator in '..\..\Source\AggVpgenSegmentator.pas',
   AggControlVCL in '..\..\Source\Controls\AggControlVCL.pas',
-  AggWin32Bmp in '..\..\Source\Platform\win\AggWin32Bmp.pas',
-  AggPlatformSupport in '..\..\Source\Platform\win\AggPlatformSupport.pas',
   AggColorConversion in '..\..\Source\AggColorConversion.pas',
-  Agg2DControl in '..\..\Source\Controls\Agg2DControl.pas';
+  Agg2DControl in '..\..\Source\Controls\Agg2DControl.pas',
+  AggSvgException in '..\..\Source\Svg\AggSvgException.pas',
+  AggSvgParser in '..\..\Source\Svg\AggSvgParser.pas',
+  AggSvgPathRenderer in '..\..\Source\Svg\AggSvgPathRenderer.pas',
+  AggSvgPathTokenizer in '..\..\Source\Svg\AggSvgPathTokenizer.pas';
 
 end.
 {$R *.res}

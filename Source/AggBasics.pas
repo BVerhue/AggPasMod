@@ -3,7 +3,7 @@ unit AggBasics;
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //  Anti-Grain Geometry (modernized Pascal fork, aka 'AggPasMod')             //
-//    Maintained by Christian-W. Budde (Christian@pcjv.de)          //
+//    Maintained by Christian-W. Budde (Christian@pcjv.de)                    //
 //    Copyright (c) 2012-2017                                                 //
 //                                                                            //
 //  Based on:                                                                 //
@@ -20,9 +20,6 @@ unit AggBasics;
 //  This software is provided "as is" without express or implied              //
 //  warranty, and with no claim as to its suitability for any purpose.        //
 //                                                                            //
-////////////////////////////////////////////////////////////////////////////////
-//  B.Verhue 1-11-2016                                                        //
-//  - Added the TAggBytes type for replacement of AnsiString                  //
 ////////////////////////////////////////////////////////////////////////////////
 
 interface
@@ -296,7 +293,6 @@ type
     0: (Values: array [0..7] of Double);
     1: (Points: array [0..3] of TPointDouble);
   end;
-
 
   TVertex = record
     X, Y: Double;

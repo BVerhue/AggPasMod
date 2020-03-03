@@ -24,7 +24,7 @@ unit AggControlVCL;
 
 interface
 
-{$I AggCompiler.inc}
+{$I '..\AggCompiler.inc'}
 
 uses
   {$IFDEF FPC} LCLIntf, LMessages, {$IFDEF MSWindows} Windows, {$ENDIF} {$ELSE}
@@ -32,7 +32,7 @@ uses
   AggBasics, AggColor, AggWin32Bmp, AggPlatformSupport, AggPixelFormat, 
   AggPixelFormatRgba, AggRenderScanLines, AggRendererBase, AggRenderingBuffer, 
   AggRasterizerScanLineAA, AggRendererScanLine, AggScanLinePacked, AggControl, 
-  AggSliderControl, AggCheckBoxControl, AggRadioBoxControl, AggGsvText, 
+  AggSliderControl, AggCheckBoxControl, AggRadioBoxControl, AggGsvText,
   AggTransAffine, AggSvgParser, AggSvgPathRenderer;
 
 type
