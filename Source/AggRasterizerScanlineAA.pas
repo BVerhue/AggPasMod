@@ -46,8 +46,8 @@ interface
 uses
   AggBasics,
   AggArray,
-  AggScanLine,
-  AggRasterizerScanLine,
+  AggScanline,
+  AggRasterizerScanline,
   AggVertexSource,
   AggGammaFunctions,
   AggClipLiangBarsky;
